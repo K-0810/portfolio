@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>PATISSERIE KATO | 豊中市向丘のケーキ屋</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="豊中市向丘の住宅街に佇む、大人も子どもも楽しめるスイーツを揃えたケーキ屋です。ゆったりティータイムを過ごせるイートインスペースもございます。">
+<meta name="keywords" content="豊崎, ケーキ, 洋菓子, スイーツ, イートイン">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+	<!-- ヘッダー -->
+	<header class="header">
+		<div class="flex-unit header-wrap">
+			<h1 class="header-logo"><a class="header-logo__link" href="#"><img class="header-logo__img" src="images/logo.png" alt="ロゴ"></a></h1>
+			<nav class="g-nav-xl">
+				<ul class="g-nav-xl__menu">
+					<li class="g-nav-xl__list"><a class="font-awesome__icon g-nav__link g-nav-xl__link" href="about.html">当店について</a></li>
+					<li class="g-nav-xl__list"><a class="font-awesome__icon g-nav__link g-nav-xl__link" href="product.html">商品紹介</a></li>
+					<li class="g-nav-xl__list"><a class="font-awesome__icon g-nav__link g-nav-xl__link" href="access.html">店舗案内</a></li>
+					<li class="g-nav-xl__list"><a class="font-awesome__icon g-nav__link g-nav-xl__link" href="order.html">ケーキ予約</a></li>
+					<li class="g-nav-xl__list"><a class="font-awesome__icon g-nav__link g-nav-xl__link" href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+			<!-- 画面幅768px以下（ナビメニュー） -->
+			<nav class="g-nav-md">
+				<ul class="g-nav-md__menu">
+					<li class="g-nav-md__list g-nav-md__list-contact"><a class="g-nav-md__link g-nav-md__link-contact" href="tel:0659744943"><i class="g-nav-md__icon fas fa-phone-square"></i></a></li>
+					<li class="g-nav-md__list g-nav-md__list-contact"><a class="g-nav-md__link g-nav-md__link-contact" href="#"><i class="g-nav-md__icon fas fa-envelope-square"></i></a></li>
+				</ul>
+				<button id="drawer" class="g-nav-md__btn" type="button" aria-controls="drawer"  aria-expanded="false"><span>more</span><span>close</span></button>
+				<div class="g-nav-drawer" aria-hidden="true">
+					<ul class="g-nav-drawer__menu">
+						<li class="g-nav-drawer__list"><a class="font-awesome__icon g-nav__link" href="#">当店について</a></li>
+						<li class="g-nav-drawer__list"><a class="font-awesome__icon g-nav__link" href="#">商品紹介</a></li>
+						<li class="g-nav-drawer__list"><a class="font-awesome__icon g-nav__link" href="#">店舗案内</a></li>
+						<li class="g-nav-drawer__list"><a class="font-awesome__icon g-nav__link" href="#">ケーキ予約</a></li>
+						<li class="g-nav-drawer__list"><a class="font-awesome__icon g-nav__link" href="#">お問い合わせ</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- 画面幅768px以下（サブヘッダーメニュー）-->
+	<div class="sub-header">
+		<ul class="flex-unit sub-header__menu">
+			<li class="sub-header__list"><a class="font-awesome__icon sub-header__link" href="#">商品紹介</a></li>
+			<li class="sub-header__list"><a class="font-awesome__icon sub-header__link" href="#">店舗案内</a></li>
+			<li class="sub-header__list"><a class="font-awesome__icon sub-header__link" href="#">ケーキ予約</a></li>
+		</ul>
+	</div>
+	<!--メイン（スライドショー）-->
+	<div class="main">
+		<div class="main__bg" style="background-image: url(images/index_main_bg01.png);"></div>
+		<div class="main__bg" style="background-image: url(images/index_main_bg02.png);"></div>
+		<div class="main__bg" style="background-image: url(images/index_main_bg03.png);"></div>
+	</div>
+	
+	<div class="main-contents">
+		
+		<!-- 営業案内、お知らせ -->
+		<section class="info">
+			<details class="calendar-box">	
+				<summary class="calendar-box__summary">【 12月の店休日 】
+						1日(水) 、7日(火)、8日(水)、15日(水)、27日(月)
+						<span class="calendar-box__toggle"><i class="font-awesome__icon calendar-box__toggle-icon"></i></span>
+				</summary>
+				<div class="calendar-area">
+					<iframe class="calendar-area__iframe" src="fullcalendar.html" name="カレンダー"></iframe>
+				</div>
+			</details>
+		</section>		
+					
+		<!-- ピックアップ -->
+		<section class="pickup">
+			<h2 class="title-unit pickup__title">ピックアップ</h2>
+			<div class=" pickup-wrap">
+				<a class="pickup-card" href="#">
+					<p class="pickup-card-img-box"><img class="pickup-card-img-box__img" src="images/index_pickup_img_2021fall.png" alt="秋の味覚フェア"></p>
+					<p class="pickup-card__text">【9/1から販売開始】秋限定スイーツをご紹介</p>
+				</a>
+				<a class="pickup-card" href="#">
+					<p class="pickup-card-img-box"><img class="pickup-card-img-box__img" src="images/index_pickup_img_2021halloween.png" alt="ハッピーハロウィンフェア"></p>
+					<p class="pickup-card__text">【9/21~10/31限定】ハロウィンスイーツをご紹介</p>
+				</a>
+				<a class="pickup-card" href="#">
+					<p class="pickup-card-img-box"><img class="pickup-card-img-box__img" src="images/index_pickup_img_2021xmas.png" alt="2021クリスマスケーキ"></p>
+					<p class="pickup-card__text">【12/18まで】クリスマスケーキ 2021 ご予約受付中</p>
+				</a>
+			</div>
+		</section>
+
+			
+		<!-- 商品紹介 -->
+		<section class="product">
+			<div class="product__inner">
+				<h2 class="title-unit product__title">商品紹介</h2>
+				<div class="product-unit product-wrap1">
+							<p class="product-img-box1"><img class="product-img-box__img" src="images/index_product_img01.png" alt="カスタードクリーム"></p>
+							<div class="product-content1">
+								<h3 class="font-awesome__icon product-content__subtitle">カスタードクリーム</h3>
+								<p class="product-content__text">一日3回（10時 14時 17時）焼き上げるシュークリームは風味豊かで、カリッとしたシュー生地は濃厚でコクのあるカスタードクリームと相性抜群。一つでも満足できる大きさで、多くの人から愛される定番人気のスイーツです。</p>
+							</div>
+							<p class="product-img-box1"><img class="product-img-box__img" src="images/index_product_img02.png" alt="季節のシュークリーム"></p>
+							<div class="product-content1">
+								<h3 class="font-awesome__icon product-content__subtitle">季節のシュークリーム</h3>
+								<p class="product-content__text">四季折々の厳選されたフルーツを使った、季節のシュークリームは当店自慢の一品です。その時期でしか味わえない旬の甘みと味わいを是非ご堪能ください。</p>
+								<a class="more" href="#">生菓子一覧を見る</a>
+							</div>	
+				</div>
+				<div class="flex-unit product-unit product-wrap2">
+						<p class="product-img-box2 product-slideshow-box">
+							<img class="product-img-box__img product-slideshow-box__img" src="images/index_product_img_slideshow01.png" alt="いちごタルト">
+							<img class="product-img-box__img product-slideshow-box__img" src="images/index_product_img_slideshow02.png" alt="梨タルト">
+							<img class="product-img-box__img product-slideshow-box__img" src="images/index_product_img_slideshow03.png" alt="フルーツタルト">
+							<img class="product-img-box__img product-slideshow-box__img" src="images/index_product_img_slideshow04.png" alt="くまのケーキ">
+						</p>
+						<div class="product-content2">
+								<h3 class="font-awesome__icon product-content__subtitle">フルーツタルト・<span class="br">アニマルケーキ</span></h3>
+								<p class="product-content__text">新鮮なフルーツをたっぷりと贅沢に使ったタルトや、動物をモチーフに可愛く仕上げたケーキは見た目も味も華やかで、大人も子どもも満足できます。</p>
+								<a class="more" href="#">ケーキ・タルト一覧を見る</a>
+						</div>
+				</div>
+				<div class="flex-unit product-unit product-wrap2">
+						<p class="product-img-box2"><img class="product-img-box__img" src="images/index_product_img03.png" alt="コーヒー"></p>
+						<div class="product-content2">
+								<h3 class="font-awesome__icon product-content__subtitle">コーヒー</h3>
+								<p class="product-content__text">当店ではイートインメニューとして、ケーキと合う紅茶・コーヒーを多数ご用意しております。コーヒーは注文を受けてから焙煎するため、香り高い、淹れたての深い味わいが楽しめます。</p>
+								<a class="more" href="#">イートインメニューを見る</a>
+					</div>
+				</div>
+				<div class="banner">
+					<a class="banner__swing" href="#"><img class="banner__img" src="images/index_product_bnr.png" alt="デコレーションケーキ WEB予約バナー"></a>
+				</div>
+								<!-- シンプルだからこそ生地や生クリームにこだわった苺のショートケーキ、ベルギー産ショコラとココアパウダーを使用したチョコレートケーキ、厳選された国産の和栗を贅沢に使用したモンブランなど......リッチな味わい広がるケーキを是非ご堪能ください。 -->
+			</div>
+		</section>
+
+		<section class="about">
+				<h2 class="about__title element js-animation">豊中の住宅街にあるケーキ屋「 <ruby>PATISSERIE KATO<rt>パティスリーカトウ</rt></ruby> 」へようこそ</h2>
+				<div class="about-content element js-animation">
+					<h3 class="about-content__subtitle">洋菓子を通じて日常を彩る</h3>
+					<p class="about-content__text">記念日やお祝い事<br>会話を楽しむ時間<br>頑張った自分へのご褒美<br>お仕事帰りにお買い物帰り</p>
+					<p class="about-content__text">上質だけど、日常の中に溶け込む贅沢なひとときを味わえるような菓子を目指しております。<br>日々の生活にそっと彩を添え、地域の方から愛され続けるお店でありますよう、愛情とこだわりをこめたお菓子をお届けします</p>
+					<a href="#" class="more more__about">当店についてを見る</a>
+				</div>
+		</section>
+
+		<!-- 店舗案内 -->
+		<section class="access">
+				<h2 class="title-unit access__title">店舗案内</h2>
+				<div class="flex-unit access-wrap">
+					<div class="access-wrap-table">
+						<table class="access-table">
+							<caption class="access-table__caption"><img class="access-table__logo" src="images/logo.png" alt="ロゴ"></caption>
+							<tr class="access-table__tr">
+								<th class="access-table__th">住所</th>
+								<td>〒560-0053 大阪府豊中市向丘1-3−34
+									<a class="access-table__g-map-link" href="https://goo.gl/maps/c5fcarNap4Lxwi3R7" target="_blank" rel="noopener noreferrer">[Google map]</a>
+								</td>
+							</tr>
+							<tr class="access-table__tr">
+								<th class="access-table__th">TEL</th>
+								<td>06-5974-4943</td>
+							</tr>
+							<tr class="access-table__tr">
+								<th class="access-table__th">営業時間</th>
+								<td>11:00 ~ 20:00</td>
+							</tr>
+							<tr class="access-table__tr">
+								<th class="access-table__th">定休日</th>
+								<td>不定休</td>
+							</tr>
+							<tr class="access-table__tr">
+								<th class="access-table__th">駐車場</th>
+								<td>3台</td>
+							</tr>
+						</table>
+						<a class="more" href="">店舗案内を見る</a>
+					</div>
+					<figure class="access-map1" data-micromodal-trigger="modal-1">
+						<img class="access-map1__img" src="images/access_map.png" alt="アクセスマップ">
+						<button class="modal__btn--open" aria-label=open modal"><i class="modal__open-btn-icon fas fa-search-plus"></i></button>
+					</figure>
+					<div id="modal-1" aria-hidden="true">
+						<div div class="modal__overlay" tabindex="-1" data-micromodal-close>
+								<div class="modal__outer">
+									<div class="modal__inner">
+										<button class="modal__btn--close" aria-label="close modal" data-micromodal-close>閉じる</button>
+										<figure class="access-map2">
+											<img class="access-map2__img" src="images/access_map.png" alt="アクセスマップ拡大">
+											<figcaption class="access-map2__caption">大阪モノレール線「少路」駅から徒歩9分。豊中ロマンチック街道からワンブロック奥まった住宅街にあります。</figcaption>
+										</figure>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<!-- お問い合わせ -->
+		<div class="contact">
+			<div class="flex-unit contact-wrap">
+				<h2 class="title-unit contact-wrap__title">お問い合わせ</h2>
+					<div>
+						<p class="contact__text">当店に関するご質問、ご相談などお気軽にお問い合わせください</p>
+						<a class="font-awesome__icon contact__link-tel" href="tel:0659744943">06-5974-4943</a>
+						<a class="more" href="#">お問い合わせフォーム</a>
+					</div>
+			</div>
+		</div>
+		
+	</div>
+	<!--/.container-->
+
+	<footer class="footer">
+		<ul class="flex-unit footer-menu">
+			<li class="footer-menu__list"><a class="footer-menu__link" href="#">当店について</a></li>
+			<li class="footer-menu__list"><a class="footer-menu__link" href="#">商品紹介</a></li>
+			<li class="footer-menu__list"><a class="footer-menu__link" href="#">店舗案内</a></li>
+			<li class="footer-menu__list"><a class="footer-menu__link" href="#">ケーキ予約</a></li>
+			<li class="footer-menu__list"><a class="footer-menu__link" href="#">お問い合わせ</a></li>
+		</ul>
+		<ul class="sns-icon">
+			<li class="sns-icon__list"><a class="sns-icon__link" href="#"><i class="sne-icon__font fab fa-facebook-square"></i></a></li>
+			<li class="sns-icon__list"><a class="sns-icon__link" href="#"><i class="sne-icon__font fab fa-instagram"></i></a></li>
+		</ul>
+		<div class="copyright">
+		<small>Copyright&copy;Patisserie KATO All Rights Reserved.</small>
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+	<script>
+			MicroModal.init();
+	</script>
+	<script src="js/fadein.js"></script>
+	<script src="js/header_scroll.js"></script>
+	<script src="js/drawer.js"></script>
+	<script src="js/viewport.js"></script>
+</body>
+</html>
