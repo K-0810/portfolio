@@ -191,11 +191,6 @@ button {border: none; border-radius: 3px}
 	background-size: cover;
 	animation: topSlide 24s ease infinite;
 }
-.main__bg::before {
-	content: "";
-	dispay: block;
-	padding-top: 50%;
-}
 
 .main__bg:nth-of-type(1) {animation-delay: 0s}
 .main__bg:nth-of-type(2) {animation-delay: 8s}
